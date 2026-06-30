@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.bw_line > div {
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, rgba(var(--pikiz-black-rgb, 19, 19, 19), 0.1) 50%, var(--pikiz-black, #131313) 50%);
+}
+@media (max-width: 991px) {
+  .bw_line > div {
+    color: var(--pikiz-black);
+  }
+}
+
+.bw_line > span > div {
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: linear-gradient(to right, rgba(var(--pikiz-black-rgb, 19, 19, 19), 0.1) 50%, var(--pikiz-black, #131313) 50%);
+}
+@media (max-width: 991px) {
+  .bw_line > span > div {
+    color: var(--pikiz-black);
+  }
+}
+
+.blog-card-two .pikiz-circle-btn__wrapper a > span,
+.service-two__item .pikiz-circle-btn__wrapper a > span {
+  transform: rotate(-90deg);
+}
+
+.service-two__item__icon {
+  max-width: 108px;
+  width: 100%;
+}
+
+.hero-two .hero-two__icon img:last-child {
+  right: auto;
+  bottom: -111px;
+  left: -111px;
+}
+
+.hero-two .hero-two__icon:hover img {
+  transform: translate(111px, -111px);
+}
+.hero-two .hero-two__icon:hover img:last-child {
+  transform: translate(111px, -111px);
+}
+
+.testimonials-one__item {
+  cursor: move;
+}
+/*# sourceMappingURL=pikiz-custom-rtl.css.map */
